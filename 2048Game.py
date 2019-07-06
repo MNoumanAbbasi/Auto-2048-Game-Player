@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-browser = webdriver.Edge()
+browser = webdriver.Edge()          # Uses Edge browser since mostly available on Windows 10
 browser.get('https://play2048.co')                      # TODO: Add check if you beat high score
-htmlElem = browser.find_element_by_tag_name('html')
+htmlElem = browser.find_element_by_tag_name('html')     # TODO: Add ability to retry game
 while True:
     htmlElem.send_keys(Keys.DOWN)
     htmlElem.send_keys(Keys.LEFT)
