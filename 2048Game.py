@@ -12,3 +12,6 @@ while True:
     scoreElem = browser.find_element_by_class_name('score-container')
     print("Score:", scoreElem.text.split('\n+')[0])   # Added split since + additions in score were showing
 
+    if browser.find_elements_by_class_name('game-over'):
+        print("Game over!")
+        break
