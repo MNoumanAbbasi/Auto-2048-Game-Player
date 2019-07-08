@@ -4,7 +4,7 @@
 
 A program that play the online game 2048 automatically.
 
-**NOTE:** Currently checked and working on Windows 10 with Edge installed. Requires WebDriver which can installed following instructions [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
+**NOTE:** Currently checked and working on Windows 10 with Microsoft Edge v44 Browser installed. Requires WebDriver which can installed following instructions [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 
 ## Overview
 
